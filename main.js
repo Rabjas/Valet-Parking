@@ -71,8 +71,9 @@ function up()
 	if(greencar_y>=0){
 		greencar_y=greencar_y-10;
 		console.log("up");
-		uploadgreencar();
+		
 		uploadBackground();
+		uploadgreencar();
 	}
 }
 
@@ -81,8 +82,9 @@ function down()
 	if(greencar_y<=350){
 		greencar_y=greencar_y+10;
 		console.log("down");
-		uploadgreencar();
+		
 		uploadBackground();
+		uploadgreencar();
 	}	
 }
 
@@ -91,8 +93,9 @@ function left()
 	if(greencar_x>=0){
 		greencar_x=greencar_x-10;
 		console.log("left");
-		uploadgreencar();
+		
 		uploadBackground();
+		uploadgreencar();
 	}
 }
 
@@ -101,7 +104,8 @@ function right()
 	if(greencar_x<=750){
 		greencar_x=greencar_x+10;
 		console.log("right");
-		uploadgreencar();
+		
 		uploadBackground();
+		uploadgreencar();
 	}
 }
